@@ -175,7 +175,7 @@ const App = () => {
                     React.createElement("label", { htmlFor: "fileInput", className: App_module_css_1.default.uploadLabel }, "Upload and Make Timetable"),
                     React.createElement("input", { type: "file", id: "fileInput", accept: ".pdf", onChange: handleFileChange })),
                 excelUpdateRequest
-                    ? React.createElement("button", { className: App_module_css_1.default.refreshButton, onClick: updateExcel }, "Load curriculum?")
+                    ? React.createElement("button", { className: App_module_css_1.default.refreshButton, onClick: updateExcel }, "Load Curriculum")
                     : React.createElement(React.Fragment, null),
                 React.createElement("div", { className: App_module_css_1.default.errorText }, errorText),
                 React.createElement(CourseSearch_1.CourseSearch, { loadedCourses: loadedCourses, allCourses: fullExcelCourses, display: displayCourses, setLoadedCourses: setLoadedCourses })),
