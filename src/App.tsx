@@ -207,14 +207,14 @@ export const App: React.FC = () => {
                     </div>
                     {
                         excelUpdateRequest
-                        ? <button className={css.refreshButton} onClick={updateExcel}>Load curriculum?</button>
+                        ? <button className={css.refreshButton} onClick={updateExcel}>Load Curriculum</button>
                         : <></>
                     }
                     <div className={css.errorText}>{errorText}</div>
                     <CourseSearch inputFilterText={searchText} loadedCourses={loadedCourses} allCourses={fullExcelCourses} display={displayCourses} setLoadedCourses={setLoadedCourses} />
                     <div className={css.downloadContainer}>
-                        <button className={css.downloadButton} onClick={() => download('https://senapp.github.io/APU-Timetable/sample_files/sample.pdf')}>Sample EN</button>
-                        <button className={css.downloadButton} onClick={() => download('https://senapp.github.io/APU-Timetable/sample_files/sample jp.pdf')}>Sample JP</button>
+                        <button className={css.downloadButton} onClick={() => download('https://alzaemaliq.github.io/Class-Scheduler/sample_files/sample.pdf')}>Sample EN</button>
+                        <button className={css.downloadButton} onClick={() => download('https://alzaemaliq.github.io/Class-Scheduler/sample_files/sample jp.pdf')}>Sample JP</button>
                     </div>
                 </div>
                 <div className={css.googleContainer}>
