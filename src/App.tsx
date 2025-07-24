@@ -73,7 +73,7 @@ export const App: React.FC = () => {
     };
 
     const getExcelURL = (): string => {
-        return `https://senapp.github.io/APU-Timetable/resources/${isCurriculum2023 ? "2023" : "2017"}${college}_Latest.xlsx`
+        return `https://alzaemaliq.github.io/Class-Scheduler/resources/${isCurriculum2023 ? "2023" : "2017"}${college}_Latest.xlsx`
     }
 
     const updateExcel = async (): Promise<Course[]> => {

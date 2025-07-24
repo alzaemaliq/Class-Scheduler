@@ -74,7 +74,7 @@ const App = () => {
         setFileText(fileList[0].name);
     };
     const getExcelURL = () => {
-        return `https://senapp.github.io/APU-Timetable/resources/${isCurriculum2023 ? "2023" : "2017"}${college}_Latest.xlsx`;
+        return `https://alzaemaliq.github.io/Class-Scheduler/resources/${isCurriculum2023 ? "2023" : "2017"}${college}_Latest.xlsx`;
     };
     const updateExcel = () => __awaiter(void 0, void 0, void 0, function* () {
         console.log("Updating excel...");
